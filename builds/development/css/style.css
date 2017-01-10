@@ -29,7 +29,7 @@
 				resize:none;
 				overflow:auto;
 			}
-			#contact-form .success {display:none; margin-bottom:15px;}
+			#contact-form .success {display:none; color: #9bba1f !important; font-weight: bold; margin-bottom:15px;}
 			#contact-form .error,
 			#contact-form .empty {
 				color:#ca3535;
@@ -562,7 +562,7 @@ or wrap each row of columns in a <div class="row"> */
 	width: 40px;
 	height: 40px;
 	cursor: pointer;
-	background: url('img/a17.png') no-repeat;
+	background: url('images/a17.png') no-repeat;
 	overflow: hidden;
 }
 .jssora05l {
