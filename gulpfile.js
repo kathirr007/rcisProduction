@@ -97,11 +97,12 @@ gulp.task('js', function(){
 	.pipe($.connect.reload())
 });
 
-gulp.task('connect', function(){
+gulp.task('connect', function(done){
 	$.connect.server({
 		root: outputDir,
 		livereload: true
 	});
+	done();
 });
 
 gulp.task('watch', function(){
