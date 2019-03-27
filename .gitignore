@@ -1,4 +1,4 @@
-sources/
+# sources/
 # builds/**/images/*
 *.7z
 *.zip
