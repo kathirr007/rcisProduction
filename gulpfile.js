@@ -37,8 +37,9 @@ jsSources = ['sources/js/jquery-1.7.1.min.js',
 				'sources/js/slides_touch.js'
 			];
 
-gulp.task('clean', function(){
+gulp.task('clean', function(done){
 	del([outputDir + '*']);
+	done();
 });
 
 gulp.task('html', function(){

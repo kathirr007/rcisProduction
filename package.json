@@ -4,6 +4,7 @@
   "description": "Royal Concorde International School, Mysore.",
   "scripts": {
     "dev": "gulp --mode=development",
+    "prebuild": "gulp clean --mode=production",
     "build": "gulp production --mode=production"
   },
   "repository": {
