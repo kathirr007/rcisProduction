@@ -13,11 +13,11 @@
   "author": "Kathirr007",
   "dependencies": {
     "gulp": "^4.0.0",
+    "del": "^2.2.0",
     "jquery": "^2.1.4"
   },
   "devDependencies": {
     "cross-env": "^7.0.3",
-    "del": "^2.2.0",
     "gulp-browserify": "^0.5.1",
     "gulp-compass": "^2.1.0",
     "gulp-concat": "^2.6.0",
