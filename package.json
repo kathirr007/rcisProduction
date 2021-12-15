@@ -3,17 +3,21 @@
   "version": "1.0.0",
   "description": "Royal Concorde International School, Mysore.",
   "scripts": {
-    "dev": "gulp --mode=development",
-    "build": "gulp production --mode=production"
+    "dev": "cross-env NODE_ENV=development gulp",
+    "build": "cross-env NODE_ENV=production gulp production"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/kathirr007/rcisProduction.git"
   },
   "author": "Kathirr007",
-  "devDependencies": {
-    "del": "^2.2.0",
+  "dependencies": {
     "gulp": "^4.0.0",
+    "jquery": "^2.1.4"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "del": "^2.2.0",
     "gulp-browserify": "^0.5.1",
     "gulp-compass": "^2.1.0",
     "gulp-concat": "^2.6.0",
@@ -29,7 +33,6 @@
     "gulp-size": "^3.0.0",
     "gulp-uglify": "^1.5.1",
     "imagemin-pngcrush": "^4.1.0",
-    "jquery": "^2.1.4",
     "mustache": "^2.2.1"
   }
 }
