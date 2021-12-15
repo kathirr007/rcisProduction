@@ -2,4 +2,4 @@
 
 This is Web project workflow for RCIS website development.
 
-To check live version please checkout **[here](http://kathirr007.github.io/rcisProduction/builds/production/)**
+To check live version please checkout **[here](https://rcis-production.vercel.app/)**
